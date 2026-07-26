@@ -1,7 +1,25 @@
 aid: fanli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fanli.png
 name: fanli
-description: fanli is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'fanli (返利网, fanli.com) is a Chinese cashback and shopping-rewards platform
+  that aggregates promotions, coupons, and rebate offers across major online retailers,
+  letting consumers earn money back on purchases they route through the site. It was
+  surfaced as a portfolio company of Qiming and added to the API Evangelist network.
+  As of this enrichment pass, fanli.com is a live consumer-facing web property; no
+  public developer portal, API documentation, machine-readable API definition, /.well-known
+  discovery surface, llms.txt, or published security/vulnerability-disclosure program
+  was found.'
 url: https://raw.githubusercontent.com/api-evangelist/fanli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-Commerce
+- Cashback
+- Shopping
+- Rewards
+- Coupons
+- Retail
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fanli-domain-security.yml
 - type: Website
   url: https://fanli.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
