@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fanli/integrations
+- https://n8n.io/integrations/fanli/
+- https://composio.dev/toolkits/fanli
+- https://monid.ai/tools/fanli
+checked:
+- https://composio.dev/toolkits/fanli
+- https://monid.ai/tools/fanli
+- https://n8n.io/integrations/fanli/
+- https://zapier.com/apps/fanli/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
